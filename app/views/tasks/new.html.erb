@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-12">
+    <h1>Create Task</h1>
+    <%= form_for @task do |f| %>
+        <div class="form-group">
+          <%= f.label :title %>
+          <%= f.text_field :title, class: "form-control" %>
+        </div>
+        <div class="form-group">
+          <%= f.label :description %>
+          <%= f.text_area :description, class: "form-control", rows: 4 %>
+        </div>
+        <%= f.submit "Create Task", class: "btn btn-success" %>
+    <% end %>
+  </div>
+</div>

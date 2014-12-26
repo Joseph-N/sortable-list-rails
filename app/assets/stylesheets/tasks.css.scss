@@ -1,0 +1,18 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  padding-top: 60px;
+  background-color: rgb(213, 213, 213);
+}
+.heading {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.sortable-placeholder {
+  border: 1px dashed #CCC;
+  background-color: #f9f9f9;
+  height: 80px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+<div class="heading">
+  <h1>Todo list</h1>
+</div>
+
+<div class="row">
+  <div class="col-md-5 col-md-offset-4 sortable">
+    <% if @tasks.any? %>
+        <%= render @tasks %>
+    <% else %>
+    <p>No tasks found <%= link_to "Create Task", new_task_path %></p>
+    <% end %>
+  </div>
+</div>
